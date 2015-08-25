@@ -16,12 +16,15 @@
         <div class="row">
             <div id="content">
                 {% block body %}
+
+                
                 {% endblock %}
             </div>
         </div>
     </section>
-    {% block javascripts %}
       <script src="{{ asset('bundles/main/js/bootstrap/bootstrap.min.js') }}"></script>
+    {% block javascripts %}
+
     {% endblock %}
 </body>
 </html>
